@@ -4,4 +4,4 @@ third commit
 first branch
 second branch
 del commit
-
+удалить совсем все
