@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 /*font-family: "Raleway", sans-serif;
 font-optical-sizing: auto;
 font-weight: <weight>;
@@ -52,9 +54,7 @@ font-style: normal;
 a {
 	text-decoration: none;
 }
-header {
-	height: 220px;
-}
+
 .header-top{
 	height: 60px;
 	background-color: #f7f7f7;
@@ -112,7 +112,6 @@ header {
 	width: 33.3333333333%;
 	text-align: center;
 	padding-top: 25px;
-
 }
 
 .exis {
@@ -190,7 +189,6 @@ input[type="text"]{
 	padding-bottom: 60px;
 }
 /*волна в подвале*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .footer {
   position: relative;

@@ -1,0 +1,134 @@
+/*от 360 - 767*/
+@media(max-width:767px) {
+
+    .header-top {
+        height: 45px;
+        background-color: #f7f7f7;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    #header-content {
+        padding-top: 8px;
+        padding-bottom: 15px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        background: rgba(27, 27, 27, 0.75);
+    }
+    header h2 {
+        font-size: 1.5em;
+        letter-spacing: -0.025em;
+    }
+    .menu__link {
+        font-size: 1rem;
+        color: #fff;
+        margin: 0px 15px;
+        display: inline-block;
+        transition: 0.5s;
+        text-decoration: none;
+        opacity: 0.75;
+        font-weight: 300;
+    }
+    body {
+        background: #f7f7f7 url(images/bg01.png);
+        color: #474747;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12pt;
+        font-weight: 300;
+        line-height: 1.65em;
+        margin: auto;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: inherit;
+        font-weight: 550;
+        line-height: 1em;
+        margin-bottom: 0.5em;
+    }
+    .wrapper {
+        padding: 1em 0 1em 0;
+
+    }
+    .container {
+        display: flex;
+        position: relative;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blok {
+        text-align: center;
+        padding-top: 25px;
+        width: 100%;
+    }
+    ::placeholder {
+        font-size: 0.75rem;
+        padding-inline: 1px;
+      }
+    .blok-itog {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+    .blok__text-left {
+        text-align: left;
+        padding-left: 20px;
+    }
+    element.style {
+        padding-bottom: 80px;
+    }
+    #blok-itog-footer {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .inputs {
+        line-height: 20px;
+    }
+    .inputblok {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 12pt;
+    }
+    .button {
+        padding: 12px 36px;
+        border-radius: 35px;
+        box-shadow: 0px 0px 20px -2px rgba(20, 54, 88, 0.5);
+        line-height: 1.25;
+        background: #3586ff;
+        color: white;
+        font-size: 14px;
+        letter-spacing: .08em;
+        overflow: hidden;
+        margin: 24px;
+    }
+    #imgSustem {
+        width: 70%;
+        padding-bottom: 15px;
+    }
+    .footer {
+        position: relative;
+        width: 100%;
+        background: #474747;
+        min-height: 80px;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer p {
+        color: #fff;
+        margin: 0px 0 0px 0;
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+
+
+}

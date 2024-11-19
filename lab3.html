@@ -1,15 +1,17 @@
 <!doctype html5>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name = "keywords" content = "политех, js, лабораторная, сайт, веб-программирование, ИТ" />
+    <meta name="description" content="Лабораторные работы студента политеха по дисциплине Инструментальные средства пользования, написание сайта с использованием js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ultra&display=swap" rel="stylesheet">
-    <title>my site</title>
+    <title>Elis's site | лр 3 </title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="js/lab2.js" defer></script>
 </head>
 <body>
@@ -20,8 +22,8 @@
                     <nav class="header-nav">
                         <a class="ultra-regular" href="#">Elis</a>
                         <div class="menu__link">
-                            <a class="dm-sans" href="index.html">Лабораторная 2</a>
-                            <a class="dm-sans" href="lab3.html">Лабораторная 3</a>
+                            <a class="dm-sans" href="index.html">ЛР 2</a>
+                            <a class="dm-sans" href="lab3.html">ЛР 3</a>
                         </div>
                     </nav>
                 </div>
@@ -144,7 +146,7 @@
                     <i class="icon major fa-wrench"></i>
                     <h3>Задание 3:</h3>
                     <p> Вычислить значение функции y=f(x) при произвольных значениях x. </p>
-                    <img src="img/func.jpg" />
+                    <img src="img/func.jpg" id="imgSustem"/>
                     <div class="inputblok">
                         <label for="xInput">Введите x:</label>
                         <input type="number" class="inputs" id="xInput" placeholder="Число x" />
@@ -159,7 +161,7 @@
                 </div>
             </div>
             <div class="container">
-                    <div class="blok-itog">
+                    <div class="blok-itog" id="blok-itog-footer">
                         <h3>Вывод по лабораторной</h3>
                         <p>В ходе данной лабораторной работы, я научилась основам программирования на JS. В результате было решено 2 задачи и написан сайт, который в дальнейшем был опубликован. </p>
                     </div>
@@ -176,11 +178,6 @@
               <div class="wave" id="wave4"></div>
             </div>
 
-            <ul class="menu">
-              <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-
-            </ul>
             <p>&copy;2024 Мироевская Елизавета | студентка группы ПИЭ-12 </p>
           </footer>
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

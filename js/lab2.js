@@ -22,23 +22,26 @@ document.getElementById("abc").onclick = function() {
 //задание 2
 function avr(num1, num2, num3) {
     let agr;
-    switch (true) {
-        case ((num1 > num2) && (num1 < num3)) || ((num1 < num2) && (num1 > num3)):
-            agr = num1;
-
-        case ((num2 > num1) && (num2 < num3)) || ((num2 < num1) && (num2 > num3)):
-            agr = num2;
-
-        default:
-            agr = num3;
+    if ((num1>num2)&&(num1<num3)) {
+        agr = num1;
+    } else if ((num1 <= num2) && (num1 >= num3)) {
+        agr = num1;
+    } else if ((num2>=num1) && (num2 <=num3)) {
+        agr = num2;
+    } else if ((num2<=num1) && (num2>=num3)) {
+        agr = num2;
+    } else if ((num3>=num1) && (num3<=num2)) {
+        agr = num3;
+    } else if ((num3 <= num1) && (num3 >= num2)) {
+        agr = num3;
     }
     return agr;
 }
 document.getElementById("avr").onclick = function() {
     // Получаем значение (из input)
-    let firstInput = document.getElementById("firstInput").value;
-    let secondInput = document.getElementById("secondInput").value;
-    let thirdInput = document.getElementById("thirdInput").value;
+    let firstInput = parseInt(document.getElementById("firstInput").value);
+    let secondInput = parseInt(document.getElementById("secondInput").value);
+    let thirdInput = parseInt(document.getElementById("thirdInput").value);
     let agr = avr(firstInput, secondInput, thirdInput);
     document.getElementById('exTwoResult').innerText = `Средним будет число ${agr}`;
 };
@@ -49,13 +52,13 @@ function system(x) {
     const b = 3.1;
     if (x > 1 || x === 1) {
         y = Math.exp(x) + 1;
-        alert(y);
+
     } else if (x > 0 && x < 1) {
         y = Math.cos(Math.sqrt(a * x)) ** 2;
-        alert(y);
+
     } else if (x < 0 || x === 0){
         y = Math.log(b + Math.sqrt(Math.abs(x)));
-        alert(y);
+
     }
     return y;
 }
